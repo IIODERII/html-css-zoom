@@ -1,0 +1,19 @@
+/* general */
+
+:root{
+    --color-primary: #222222;
+    --color-bg: #000;
+    --color-secondary: #fff;
+    --color-red: #ff0000;
+    --color-green: #4bc800;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: var(--color-secondary);
+}
