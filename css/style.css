@@ -46,7 +46,16 @@ body{
 
 /* hover */
 
+nav span i:hover{
+    cursor: pointer;
+    background-color: var(--color-accessory);
+}
 
+.end:hover{
+    background-color: var(--color-red);
+    color: var(--color-secondary);
+    cursor: pointer;
+}
 
 /* content */
 
@@ -64,14 +73,14 @@ header{
 
 .view-util{
     background-color: var(--color-accessory);
-    padding: 5px 3px;
+    padding: 10px 8px;
     border-radius: 5px;;
 }
 
-.view-util:hover{
+/* .view-util:hover{
     background-color: var(--color-primary);
     cursor: pointer;
-}
+} */
 
 /* main */
 
