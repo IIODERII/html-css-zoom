@@ -57,6 +57,11 @@ nav span i:hover{
     cursor: pointer;
 }
 
+.view-util:hover{
+    background-color: var(--color-primary);
+    cursor: pointer;
+}
+
 /* content */
 
 .container{
@@ -76,11 +81,6 @@ header{
     padding: 10px 8px;
     border-radius: 5px;;
 }
-
-/* .view-util:hover{
-    background-color: var(--color-primary);
-    cursor: pointer;
-} */
 
 /* main */
 
